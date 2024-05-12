@@ -1,18 +1,20 @@
 {
     "name": "AD_Blocker",
     "version": "1.0.0",
-    "manifest_version": 1,
+    "manifest_version": 3,
     "permissions": [
         "declarativeNetRequest"
     ],
 
-    "declarativeNetRequest":
+    "declarative_net_request":
     {
         "rule_resources":
+        [
         {
              "id": "request_1",
              "enabled": true,
              "path": "rules.json"
         }
+    ]
     }
 }

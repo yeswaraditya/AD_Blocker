@@ -10,5 +10,30 @@
         "priority": 1,
         "action": { "type": "block" },
         "condition": { "urlFilter" : "*://googleadservices.com/*" }
+    },
+    {
+        "id": 3,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://adtago.s3.amazonaws.com/*" }
+    },
+    {
+        "id": 4,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://analyticsengine.s3.amazonaws.com/*" }
+    },
+    {
+        "id": 5,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://analytics.s3.amazonaws.com/*" }
+    },
+    {
+        "id": 6,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://advice-ads.s3.amazonaws.com/*" }
     }
+   
 ]
