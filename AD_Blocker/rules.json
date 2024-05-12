@@ -1,21 +1,14 @@
 [
     {
-        "id":1,
+        "id": 1,
         "priority": 1,
-        "action": { "type": "block"},
-        "condition": { "urlfilter" : "*://*doubleclick.net/*"}
-
-
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://*doubleclick.net/*" }
     },
-
     {
-        "id":2,
+        "id": 2,
         "priority": 1,
-        "action": { "type": "block"},
-        "condition": { "urlfilter" : "*://googleadservices.com*.com/*"}
-
-
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://googleadservices.com/*" }
     }
-
-
 ]
