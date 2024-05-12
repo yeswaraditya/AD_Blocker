@@ -3,7 +3,7 @@
         "id": 1,
         "priority": 1,
         "action": { "type": "block" },
-        "condition": { "urlFilter" : "*://*doubleclick.net/*" }
+        "condition": { "urlFilter" : "*://doubleclick.net/*" }
     },
     {
         "id": 2,
@@ -63,7 +63,7 @@
         "id": 11,
         "priority": 1,
         "action": { "type": "block" },
-        "condition": { "urlFilter" : "*://advice-ads.s3.amazonaws.com/*" }
+        "condition": { "urlFilter" : "*://adsfs.oppomobile.com/*" }
     },
     {
         "id": 12,
@@ -83,12 +83,7 @@
         "action": { "type": "block" },
         "condition": { "urlFilter" : "*://events3alt.adcolony.com/*" }
     },
-    {
-        "id": 15,
-        "priority": 1,
-        "action": { "type": "block" },
-        "condition": { "urlFilter" : "*://events3alt.adcolony.com/*" }
-    },
+ 
     {
         "id": 16,
         "priority": 1,
@@ -125,5 +120,4 @@
         "action": { "type": "block" },
         "condition": { "urlFilter" : "*://ads.youtube.com/*" }
     }
-   
 ]
