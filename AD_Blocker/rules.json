@@ -83,6 +83,12 @@
         "action": { "type": "block" },
         "condition": { "urlFilter" : "*://events3alt.adcolony.com/*" }
     },
+    {
+        "id": 15,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://analytics.google.com/*" }
+    },
  
     {
         "id": 16,
@@ -118,6 +124,675 @@
         "id": 21,
         "priority": 1,
         "action": { "type": "block" },
-        "condition": { "urlFilter" : "*://ads.youtube.com/*" }
+        "condition": { "urlFilter" : "*://click.googleanalytics.com/*" }
+    },
+    {
+        "id": 22,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://google-analytics.com/*" }
+    },
+    {
+        "id": 23,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://ssl.google-analytics.com/*" }
+    },
+    {
+        "id": 24,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://mouseflow.com/*" }
+    },
+    {
+        "id": 25,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://cdn.mouseflow.com/*" }
+    },
+    {
+        "id": 26,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://o2.mouseflow.com/*" }
+    },
+    {
+        "id": 27,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://tools.mouseflow.com/*" }
+    },
+    {
+        "id": 28,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://cdn-test.mouseflow.com/*" }
+    },
+    {
+        "id": 29,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://luckyorange.com/*" }
+    },
+    {
+        "id": 30,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://api.luckyorange.com/*" }
+    },
+    {
+        "id": 31,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://realtime.luckyorange.com/*" }
+    },
+    {
+        "id": 32,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://cdn.luckyorange.com/*" }
+    },
+    {
+        "id": 33,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://w1.luckyorange.com/*" }
+    },
+    
+    {
+        "id": 34,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://upload.luckyorange.net/*" }
+    },
+    {
+        "id": 35,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://cs.luckyorange.net/*" }
+    },
+    {
+        "id": 36,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://settings.luckyorange.net/*" }
+    },
+    {
+        "id": 37,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://adm.hotjar.com/*" }
+    },
+    {
+        "id": 38,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://identify.hotjar.com/*" }
+    },
+    {
+        "id": 39,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://insights.hotjar.com/*" }
+    },
+    {
+        "id": 40,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://script.hotjar.com/*" }
+    },
+    {
+        "id": 41,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://surveys.hotjar.com/*" }
+    },
+    {
+        "id": 42,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://careers.hotjar.com/*" }
+    },
+    {
+        "id": 43,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://events.hotjar.io/*" }
+    },
+    {
+        "id": 44,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://freshmarketer.com/*" }
+    },
+    {
+        "id": 45,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://claritybt.freshmarketer.com/*" }
+    },
+    {
+        "id": 46,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://fwtracks.freshmarketer.com/*" }
+    },
+    {
+        "id": 47,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://notify.bugsnag.com/*" }
+    },
+    {
+        "id": 48,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://sessions.bugsnag.com/*" }
+    },
+    {
+        "id": 49,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://api.bugsnag.com/*" }
+    },
+    {
+        "id": 50,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://app.bugsnag.com/*" }
+    },
+    {
+        "id": 51,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://browser.sentry-cdn.com/*" }
+    },
+    {
+        "id": 52,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://app.getsentry.com/*" }
+    },
+    {
+        "id": 53,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://pixel.facebook.com/*" }
+    },
+    {
+        "id": 54,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://an.facebook.com/*" }
+    },
+    {
+        "id": 55,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://ads.linkedin.com/*" }
+    },
+    {
+        "id": 56,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://ads.linkedin.com/*" }
+    },
+    {
+        "id": 57,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://ads.linkedin.com/*" }
+    },
+    {
+        "id": 58,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://ads.linkedin.com/*" }
+    },
+    {
+        "id": 59,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://ads.linkedin.com/*" }
+    },
+    {
+        "id": 60,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://ads.linkedin.com/*" }
+    },
+    {
+        "id": 61,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://ads.linkedin.com/*" }
+    },
+    {
+        "id": 62,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://ads.linkedin.com/*" }
+    },
+    {
+        "id": 63,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://ads.linkedin.com/*" }
+    },
+    
+    {
+        "id": 64,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://analytics.pointdrive.linkedin.com/*" }
+    },
+    {
+        "id": 65,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://events.reddit.com/*" }
+    },
+    {
+        "id": 66,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://events.redditmedia.com/*" }
+    },
+
+    {
+        "id": 67,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://ads-api.tiktok.com/*" }
+    },
+    {
+        "id": 68,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://analytics.tiktok.com/*" }
+    },
+    {
+        "id": 69,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://ads-sg.tiktok.com/*" }
+    },
+    {
+        "id": 70,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://analytics-sg.tiktok.com/*" }
+    },
+    {
+        "id": 71,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://business-api.tiktok.com/*" }
+    },
+    {
+        "id": 72,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://ads.tiktok.com/*" }
+    },
+    {
+        "id": 73,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://log.byteoversea.com/*" }
+    },
+    {
+        "id": 74,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://static.ads-twitter.com/*" }
+    },
+    {
+        "id": 75,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://ads-api.twitter.com/*" }
+    },
+    {
+        "id": 76,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://ads.pinterest.com/*" }
+    },
+    {
+        "id": 77,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://log.pinterest.com/*" }
+    },
+    {
+        "id": 78,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://analytics.pinterest.com/*" }
+    },
+    {
+        "id": 79,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://trk.pinterest.com/*" }
+    },
+    {
+        "id": 80,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://widgets.pinterest.com/*" }
+    },
+    {
+        "id": 81,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://ads.yahoo.com/*" }
+    },
+    {
+        "id": 82,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://analytics.yahoo.com/*" }
+    },
+    {
+        "id": 83,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://geo.yahoo.com/*" }
+    },
+    {
+        "id": 84,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://udc.yahoo.com/*" }
+    },
+    {
+        "id": 85,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://udcm.yahoo.com/*" }
+    },
+    {
+        "id": 86,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://analytics.query.yahoo.com/*" }
+    },
+    {
+        "id": 87,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://partnerads.ysm.yahoo.com/*" }
+    },
+    {
+        "id": 88,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://log.fc.yahoo.com/*" }
+    },
+    {
+        "id": 89,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://gemini.yahoo.com/*" }
+    },
+    {
+        "id": 90,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://adtech.yahooinc.com/*" }
+    },
+    {
+        "id": 91,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://auction.unityads.unity3d.com/*" }
+    },
+    {
+        "id": 92,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://webview.unityads.unity3d.com/*" }
+    },
+    {
+        "id": 93,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://config.unityads.unity3d.com/*" }
+    },
+    {
+        "id": 94,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://adserver.unityads.unity3d.com/*" }
+    },
+    {
+        "id": 95,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://extmaps-api.yandex.net/*" }
+    },
+    {
+        "id": 96,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://appmetrica.yandex.ru/*" }
+    },
+    {
+        "id": 97,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://adfstat.yandex.ru/*" }
+    },
+    {
+        "id": 98,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://metrika.yandex.ru/*" }
+    },
+    {
+        "id": 99,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://offerwall.yandex.net/*" }
+    },
+    {
+        "id": 100,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://adfox.yandex.ru/*" }
+    },
+    {
+        "id": 101,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://iot-eu-logser.realme.com/*" }
+    },
+    {
+        "id": 102,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://iot-logser.realme.com/*" }
+    },
+    {
+        "id": 103,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://bdapi-ads.realmemobile.com/*" }
+    },
+    {
+        "id": 104,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://bdapi-in-ads.realmemobile.com/*" }
+    },
+    {
+        "id": 105,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://adx.ads.oppomobile.com/*" }
+    },
+    {
+        "id": 106,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://ck.ads.oppomobile.com/*" }
+    },
+    {
+        "id": 107,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://data.ads.oppomobile.com/*" }
+    },
+    {
+        "id": 108,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://click.oneplus.cn/*" }
+    },
+    {
+        "id": 109,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://iadsdk.apple.com/*" }
+    },
+    {
+        "id": 110,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://metrics.icloud.com/*" }
+    },
+    {
+        "id": 111,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://metrics.mzstatic.com/*" }
+    },
+    {
+        "id": 112,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://api-adservices.apple.com/*" }
+    },
+    {
+        "id": 113,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://books-analytics-events.apple.com/*" }
+    },
+    {
+        "id": 114,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://weather-analytics-events.apple.com/*" }
+    },
+    {
+        "id": 115,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://notes-analytics-events.apple.com/*" }
+    },
+    {
+        "id": 116,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://api.ad.xiaomi.com/*" }
+    },
+    {
+        "id": 117,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://data.mistat.xiaomi.com/*" }
+    },
+    {
+        "id": 118,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://data.mistat.india.xiaomi.com/*" }
+    },
+    {
+        "id": 119,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://data.mistat.rus.xiaomi.com/*" }
+    },
+    {
+        "id": 120,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://sdkconfig.ad.xiaomi.com/*" }
+    },
+    {
+        "id": 121,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://sdkconfig.ad.intl.xiaomi.com/*" }
+    },
+    {
+        "id": 122,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://tracking.rus.miui.com/*" }
+    },
+    {
+        "id": 123,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://metrics.data.hicloud.com/*" }
+    },
+    {
+        "id": 124,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://metrics2.data.hicloud.com/*" }
+    },
+    {
+        "id": 125,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://grs.hicloud.com/*" }
+    },
+    {
+        "id": 126,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://logservice.hicloud.com/*" }
+    },
+    {
+        "id": 127,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://logservice1.hicloud.com/*" }
+    },
+    {
+        "id": 128,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://logbak.hicloud.com/*" }
+    },
+    {
+        "id": 129,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://samsungads.com/*" }
+    },
+    {
+        "id": 130,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://smetrics.samsung.com/*" }
+    },
+    {
+        "id": 131,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://samsung-com.112.2o7.net/*" }
+    },
+    {
+        "id": 132,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": { "urlFilter" : "*://analytics-api.samsunghealthcn.com/*" }
     }
 ]

@@ -6,8 +6,12 @@
          "default_popup": " popup.html",
          "default_icon": "logo.png"
     },
+    
     "permissions": [
-        "declarativeNetRequest"
+        "declarativeNetRequest",
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
         
     ],
     "icons":
