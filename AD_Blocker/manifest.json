@@ -3,10 +3,10 @@
     "version": "1.0.0",
     "manifest_version": 3,
     "permissions": [
-        "delclarativeNetRequest"
+        "declarativeNetRequest"
     ],
 
-    "declarative_net_request":
+    "declarativeNetRequest":
     {
         "rule_resources":
         {
@@ -15,5 +15,4 @@
              "path": "rules.json"
         }
     }
-
 }
