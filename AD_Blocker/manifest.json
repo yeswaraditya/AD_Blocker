@@ -2,7 +2,7 @@
     "name": "AD_Blocker",
     "version": "1.0.0",
     "manifest_version": 3,
-    "browser_action":{
+    "action":{
          "default_popup": " popup.html",
          "default_icon": "logo.png"
     },
